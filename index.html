@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>DNA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="dna.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <div class="container-fluid bg-color">
+        
+            <div class="card">
+                <div class="card-body">
+                        <div class="row">
+                                <h1 class="card-title bg-style">Happy Hack Day!</h1>
+                            </div>
+                    
+                    <!-- Default unchecked -->
+                    <div class="row">
+                        <div class="custom-control custom-radio ml-auto radio-padding">
+                            <input type="radio" class="custom-control-input" id="defaultUnchecked" value="DNA" name="defaultExampleRadios">
+                            <label class="custom-control-label" for="defaultUnchecked">DNA</label>
+                        </div>
+                     
+                        <!-- Default checked -->
+                        <div class="custom-control custom-radio ml-auto radio-padding">
+                            <input type="radio" class="custom-control-input" id="defaultChecked" value="RNA" name="defaultExampleRadios" checked>
+                            <label class="custom-control-label" for="defaultChecked">RNA</label>
+                        </div>
+                    </div>
+                </div>
+
+           
+                    <div class="input-group radio-padding">
+                        <input type="text" id="input" class="form-control" placeholder="Input" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                
+                   
+                    <div class="radio-padding">
+                        <button class="btn button-style" type="" onclick="convertDNA()">Submit</button>
+                    </div>
+                   
+
+                    <textarea id="output">Output</textarea>
+                     
+                    </div>
+                </div>
+    </div>
+    
+    <script src="dna.js"></script>
+</body>
+</html>

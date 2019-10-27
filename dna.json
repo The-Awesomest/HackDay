@@ -1,0 +1,31 @@
+{
+"dnaCodes" : [
+   {"a" : "ATCG"},
+   {"b" : "ATGC"},  
+   {"c" : "TACG"},
+   {"d" : "TACC"},
+   {"e" : "GCTA"},
+   {"f" : "CGAT"},
+   {"c" : "TTCG"},
+   {"h" : "CCTG"},
+   {"i" : "ACCG"},
+   {"j" : "GGCA"},
+   {"k" : "CCTG"},
+   {"l" : "TAGC"},
+   {"m" : "GCAT"},
+   {"n" : "CGTA"},
+   {"o" : "AATT"},
+   {"p" : "AAGG"},
+   {"q" : "CCAA"},
+   {"r" : "TTGG"},
+   {"s" : "TTAA"},
+   {"t" : "TCAA"},
+   {"u" : "ACCA"},
+   {"v" : "CTTC"},
+   {"w" : "GTTG"},
+   {"x" : "ATAT"},
+   {"y" : "TGTG"},
+   {"z" : "CACA"}
+    ]
+
+}
